@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    letter-spacing: 5px;
+}
+
+p {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    letter-spacing: 5px;
+}
+
+nav {
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    background-color: sienna;
+}
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: xx-large;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav li #visiting {
+    background-color: saddlebrown;
+}
+
+nav li a:hover {
+    background-color: brown;
+}
+
+header {
+    float: left;
+    position: relative;
+    width: 40%;
+}
+
+header img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+header .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    letter-spacing: 5px;
+    color: aliceblue;
+    background-color: brown;
+}
+
+section {
+    float: left;
+    width: 60%;
+    background-color: cornsilk;
+}
+
+.sub-header {
+    padding-block: 20px;
+    width: 100%;
+    background-color: darksalmon;
+}
