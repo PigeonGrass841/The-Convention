@@ -5,7 +5,7 @@
 }
 
 h1, h2, h3 {
-    padding: 10px;
+    padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     letter-spacing: 5px;
@@ -62,17 +62,14 @@ header {
 
 header img {
     width: 100%;
-    aspect-ratio: 1/1;
 }
 
-header .bottom-left {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+header .description {
+    box-sizing: border-box;
     padding: 10px;
-    width: 50%;
+    width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 5px;
     color: aliceblue;
     background-color: brown;
@@ -84,8 +81,38 @@ section {
     background-color: cornsilk;
 }
 
+.event {
+    width: 100%;
+}
+
 .sub-header {
     padding-block: 20px;
     width: 100%;
     background-color: darksalmon;
+}
+
+table {
+    text-align: left;
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: lemonchiffon;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+th {
+    top: 0;
+    padding: 10px;
+    position: sticky;
+    border-radius: 0;
+    background: brown;
+    color: white;
+}
+
+td:hover {
+    background-color: linen;
 }
